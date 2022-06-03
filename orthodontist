@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Dentalen kabinet, Дентален кабинет">
+<meta name="keywords" content="dental, zubolekar, zub, kabinet, lekarski kabinet, зъб, кабинет, детска стоматология, отропедия, хиругия, лечения, профилктика, терапия, парадонтология, ортодонгия, detska stomatologiq, paradontologiq, profilktika, terapiq, ortodongiq, hirugiq, ortopediq">
+<meta name="author" content="Rumen I. Poibrenski">
+<title>Дентален сайт</title>
+<link rel="stylesheet" href="style19.css">
+<link rel="stylesheet" href="style20.css">
+
+
+
+<!--slideshow -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+		
+			$("#slideshow > div:gt(0)").hide();
+	
+			setInterval(function() { 
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  3000);
+			
+		});
+		
+		
+
+		
+	</script>
+	
+	
+</head>
+
+
+
+
+<body>
+
+
+<div id = "page">
+<div id="image">
+<header>
+  <img src="cyan.png" alt="CyanTeeth" height="200" width="200"><h1>СТОМАТОЛОГИЧЕН КАБИНЕТ&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Д-Р ПЕТЯ ПОИБРЕНСКА</h1>
+ <div id="motto">
+ <img src="motto.gif" alt="Motto" height="100" width="700"  />
+ </div>
+</header>
+
+</div>
+
+
+
+
+<ul id="menu">
+<li><a href="index.html">Начало</a></li>
+<li class = "fake">Лечениe
+<ul class="hidden">
+<li><a href="profilaktika.html">Профилактика</a></li>
+<li><a href="terapiq.html">Терапия</a></li>
+<li><a href="ortopediq.html">Ортопедия</a></li>
+<li><a href="parodontologiq.html">Пародонтология</a></li>
+<li><a href="hirugiq.html">Хиругия</a></li>
+<li><a href="ortodontiq.html">Ортодонтия</a></li>
+<li><a href="detska_stomatologiq.html">Детска стоматология</a></li>
+</ul>
+</li>
+<li><a href="galeriq.html">Галерия</a></li>
+<li><a href="interesno.html">Интересно</a></li>
+<li><a href="kontakti.html">Контакти</a></li>
+</ul>
+	
+<br><br><br>
+<marquee behavior="alternate">гр. София, кв. Манастирски ливади, ул. "Синанишко езеро" №13, бл.12 партер; &nbsp;&nbsp;&nbsp;&nbsp; моб. тел.: 0888873693</marquee>
+<br>
+
+<div id="slideshow">
+   <div>
+     <img src="stomatolog.jpg" alt="stomatolog">
+   </div>
+   <div>
+     <img src="working.jpg" alt="working">
+   </div>
+   <div>
+     <img src="mum-and-child.jpg" alt="mumandchild">
+   </div>
+</div>
+
+
+
+
+
+	
+<div id="container">
+	<div id="contacts">
+   <div id="ortodontiq">
+   
+   	<h1><u>ОРТОДОНТИЯ – ЕДНО БИОЛОГИЧНО ЛЕЧЕНИЕ</u></h1>
+ 
+   	<p>
+-	Преглед и консултация за установяване на необходимост от ортодонтско лечение.<br>-	Лечение на зъбно-челюстни деформации с ортодонтски апарати.
+</p>
+<div id="imgzz">
+<img src="ортодонтски апарат - червен.jpg" alt="ortodontski aparat" height="200" width="300"/>
+</div>
+<div id="imgzz1">
+	<img src="^AA2F8EB77A453E3EA7D8BB6C527E9A6054CC3B398C05FB3CD5^pimgpsh_thumbnail_win_distr.jpg" alt="zubi" height="200" width="300"/>
+	<img src="ортодонтски апарат - шарен.jpg" alt="ortodontski aparat" height="200" width="300"/>
+</div>
+<div id="onesentence">
+	<p>-	Лечение на зъбно-челюстни деформации с брекети:</p>
+</div>
+<div id="textz">
+	<h2>Лингвални /невидими/</h2> 
+	<h3>Вестибуларни /видими/</h3>
+	<h4>*Самолигиращи</h4> <h6>/метални брекети/</h6> <p>/керамични брекети/</p> <h5>*Обикновени</h5>
+</div>
+<div id="textzx">
+	<h2><u><b>Лингвални брекети</b></u> - това са брекети, които се залепят не от външната, а от вътрешната стана на зъба. Те са практически невидими и се избират от хора, за които външния вид докато тече лечението им е от изключителна важност. Твърди се, че лечението с тях е по-трудно. Цената също така може да достигне няколко пъти тази на обикновенните брекети.</h2>
+	<img src="лингвални брекети Петя.jpg"  alt="lingvalni breketi" height="200" width="300"/>
+</div>
+<div id="textzx1">
+	<h4><u><b>Самолигиращите брекети</b></u> като принцип на работа са същите като обикновенните, но много хора казват, че упражняват по-малки натоварвания върху зъбите именно заради липсата на лигатурите. При тях дъгата се движи по-свободно в процепа на брекета. Също така се твърди, че работят по-бързо и крайният резултат се постига с по-малко посещения при ортодонта.</h4>
+	<h2><u><b>Метални брекети</b></u> - това е традиционният и най-популярен вид брекети днес. Биват два вида - обикновенни, които изискват употребата на лигатури и самолигириращи, които се захващат сами за дъгата. Лигатурите както може би вече знаете са малки силиконови пръстенчета, които се оплитат върху брекета и по този начин задържат дъгата на мястото й в процепа на брекета.</h2>
+</div>
+<div id="imgzz2">
+<img src="Лени орто - преди брекети.jpg" alt="breketi predi" height="200" width="300"/>
+</div>
+<div id="imgzz3">
+	<img src="лени брекети.jpg" alt="breketi" height="200" width="300"/>
+	<img src="Лени брекети - след.jpg" alt="breketi sled" height="200" width="300"/>
+</div>
+<div id="imgzz10">
+	<img src="Иван с брекети.jpg" alt="breketi predi" height="200" width="300"/>
+</div>
+<div id="imgzz11">
+	<img src="Иван с брекети.jpg" alt="breketi" height="200" width="300"/>
+	<img src="иван брекети - следд.jpg" alt="breketi sled" height="200" width="300"/>
+</div>
+<div id="textes11">
+	<p><u><b>Керамични брекети</b></u> - това са брекети изработени от прозрачен композит или такъв наподобяващ цвета на зъбите ви. Идеята им е да са по-незабележими в устата. Има както обикновенни керамични брекети (които се захващат за дъгата с прозрачни или бели лигатури или със специална тел) и самолигиращи. Има и хибридни с метално капаче и т.н.
+</p>
+</div>
+<div id="textwithcyan">
+	<p>-	Изработване на <b>ретайнери</b> – един задължителен етап от ортодонтското лечение за избягване на рецидиви. </p>
+
+<h2>Снемаеми</h2> <h3>Неснемаеми</h3>
+<img src="подвижни ретайнери - есекс.jpg" alt="podvijni ratajneri - eseks" height="200" width="300"/>
+</div>
+<div id="textss">
+	<p>Изборът на брекети, се осъществява от желанието на пациента, но най вече зависи от зъбно-челюстната деформация и необходимите за нея консумативи, за постигане на добър естетичен ефект!</p>
+	<p>Те се поставят само на пациенти с добра орална хигиена и мотивация за красива усмивка! Друго важно условие за за по-бърз резултат е съдействието на пациента при носене на някой елементи към системата от брекети – ластици, апарати и др.</p>
+</div>
+   </div>
+   </div>
+</div>   
+
+
+
+	<div id="footer">
+		<p>Copyright 2015  &copy; All Rights Reserved | Developed by: Rumen Poibrenski
+		</p>
+		<div id="like">
+		<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FDentalenKabinet&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+		</div>
+		
+	</div>	
+</div>
+</body>
+</html>
