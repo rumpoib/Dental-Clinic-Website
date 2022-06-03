@@ -1,0 +1,39 @@
+p {
+	font-style: normal;
+	font-family:"Arial", cursive;
+	font-size:12px;
+}
+
+img {
+	float:left;
+	margin: 3px;
+	margin-top:-11px;
+	margin-top: 4px;
+}
+h3 {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Arial", cursive;
+	font-size: 30px;
+	
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: "Arial", cursive;
+	text-align: center;
+	font-size: 40px;
+}
+/*p  {  
+	text-align: right;
+	text-indent: 100 px;
+	color: black;
+	font-family:"Arial", cursive;
+}*/
+
+h4 {
+	color: #FFFFFF;
+	font-style: italic;
+	font-family:"Arial", cursive;
+	font-size: 35px;
+}

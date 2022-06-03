@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", cursive;
+	background-color: #FFFFFF;
+	text-align:center;
+}
+#page{
+	width: 1455px;	
+	margin: 0 auto;
+	
+}
+header {
+	background-color: #DBDAD8;
+	font-family: "Arial", cursive;
+	text-align: center;
+	padding: 10px;
+	height: 206px;
+	color: #fffff;
+	font-stretch:narrower;
+	box-shadow: 0 0 12px rgba(0,0,0,0.4);  
+}
+
+ul {
+	list-style-type: none;		
+	padding: 0;
+	position: absolute;
+	
+}
+li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+ul li a {
+	display: block;
+	min-width: 291px;  
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: #82CAFA;
+	text-decoration: none; 
+	box-shadow: 0 0 12px rgba(0,0,0,0.4);  
+	
+}
+li.fake {
+	min-width: 291px;  
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: #82CAFA;
+	text-decoration: none; 
+	box-shadow: 0 0 12px rgba(0,0,0,0.4);  
+	
+}
+ul li:hover a {
+	background: #DBDAD8;
+	opacity: 1;
+	box-shadow: 0 0 12px rgba(0,0,0,0.4);  
+	
+}
+ul li:hover ul a {
+	background: #DBDAD8;
+	color: #FFFFFF;
+	height: 40px;
+	line-height: 40px;
+	opacity: 1;
+	
+}
+ul li:hover ul a:hover {
+	background: #82CAFA;
+	color: #fff;
+	opacity: 1;	
+}
+li ul {
+	display: block;
+	
+}
+li ul li {
+	display: block;
+	float: none;
+	
+}
+li ul li a {
+	padding: 0 20px;
+	opacity: 0;
+	min-width: 250px; 
+    
+	
+	
+	
+}
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+
+marquee {
+	color: gray;
+	border-bottom: normal;
+	border-top: normal;
+	border-color: #DBDAD8;
+	box-shadow: 0 0 12px rgba(0,0,0,0.4); 
+	font-family: "Arial", cursive;
+	z-index: -1;
+}
+#container {
+	width: auto; 
+	height: auto;
+	background-color:#DBDAD8;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px;
+	border-top: 1px;
+	overflow: auto;
+	padding: 10 px;
+	color: #FFCC7F;
+	box-shadow: 0 0 12px rgba(0,0,0,0.4); 
+	z-index:-1;
+	
+}
+#container div {
+	float:left;
+	
+}
+#interesno {
+	background-color:#FFF;
+	padding:5px;
+	margin:30px;
+	width:1380px;
+	height: auto;
+	box-shadow: 0 0 12px rgba(0,0,0,0.4);  
+}
+
+#interesno h1 {
+	text-align: left;
+	color: #82CAFA;
+	font-size: 17px;
+	margin: 20px;
+	
+}
+#interesno p {
+	text-align: left;
+	color: #82CAFA;
+	font-size: 18px;
+	margin: 20px;
+}
+/*слайдшоу*/
+#slideshow { 
+   
+   
+    position: relative; 
+    width: 1435px; 
+    height: 320px; 
+    padding: 10px;           
+    box-shadow: 0 0 12px rgba(0,0,0,0.4); 
+    z-index:-1;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 8px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px;
+    z-index: -1;
+}
+
+#footer {
+	background-color: #82CAFA;
+	font-family: "Comic Sans MS", cursive;
+	padding: 10px;	
+	width: auto;
+	color: #82CAFA;
+	height: 65px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.4); 
+	
+}
+#footer p{
+	font-size: 14px; 
+	color: white;
+	text-align: left;
+	padding: 2px;
+}
+#footer p{
+	text-align: center;
+	
+}
+#like{
+	padding-left: 10px;
+	color:#FFFFFF;
+	margin-left: 150px;
+	
+	
+}
+#motto img {
+	padding-left: 250px;
+}
+
+#motto img {
+	padding-left: 250px;
+}
+#menu {
+	width: 1455px;	
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
