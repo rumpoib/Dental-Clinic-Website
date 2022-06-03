@@ -1,0 +1,39 @@
+p {
+	font-style: normal;
+	font-family:"Comic Sans MS", cursive;
+	font-size:12px;
+}
+
+img {
+	float:left;
+	margin: 3px;
+	margin-top:-11px;
+	margin-top: 4px;
+}
+h3 {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 30px;
+	
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+	font-size: 30px;
+}
+/*p  {  
+	text-align: right;
+	text-indent: 100 px;
+	color: black;
+	font-family:"Comic Sans MS", cursive;
+}*/
+
+h4 {
+	color: #FFFFFF;
+	font-style: italic;
+	font-family:"Comic Sans MS", cursive;
+	font-size: 20px;
+}
