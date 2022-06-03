@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Dentalen kabinet, Дентален кабинет">
+<meta name="keywords" content="dental, zubolekar, zub, kabinet, lekarski kabinet, зъб, кабинет, детска стоматология, отропедия, хиругия, лечения, профилктика, терапия, парадонтология, ортодонгия, detska stomatologiq, paradontologiq, profilktika, terapiq, ortodongiq, hirugiq, ortopediq">
+<meta name="author" content="Rumen I. Poibrenski">
+<title>Дентален сайт</title>
+<link rel="stylesheet" href="style21.css">
+<link rel="stylesheet" href="style22.css">
+
+
+
+<!--slideshow -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+		
+			$("#slideshow > div:gt(0)").hide();
+	
+			setInterval(function() { 
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			},  3000);
+			
+		});
+		
+		
+
+		
+	</script>
+	
+	
+
+</head>
+
+
+
+
+<body>
+
+
+<div id = "page">
+<div id="image">
+<header>
+  <img src="cyan.png" alt="CyanTeeth" height="200" width="200"><h1>СТОМАТОЛОГИЧЕН КАБИНЕТ&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Д-Р ПЕТЯ ПОИБРЕНСКА</h1>
+ <div id="motto">
+ <img src="motto.gif" alt="Motto" height="100" width="700"  />
+ </div>
+</header>
+
+</div>
+
+
+
+<ul id="menu">
+<li><a href="index.html">Начало</a></li>
+<li class = "fake">Лечениe
+<ul class="hidden">
+<li><a href="profilaktika.html">Профилактика</a></li>
+<li><a href="terapiq.html">Терапия</a></li>
+<li><a href="ortopediq.html">Ортопедия</a></li>
+<li><a href="parodontologiq.html">Пародонтология</a></li>
+<li><a href="hirugiq.html">Хиругия</a></li>
+<li><a href="ortodontiq.html">Ортодонтия</a></li>
+<li><a href="detska_stomatologiq.html">Детска стоматология</a></li>
+</ul>
+</li>
+<li><a href="galeriq.html">Галерия</a></li>
+<li><a href="interesno.html">Интересно</a></li>
+<li><a href="kontakti.html">Контакти</a></li>
+</ul>
+	
+<br><br><br>
+<marquee behavior="alternate">гр. София, кв. Манастирски ливади, ул. "Синанишко езеро" №13, бл.12 партер; &nbsp;&nbsp;&nbsp;&nbsp; моб. тел.: 0888873693</marquee>
+<br>
+
+<div id="slideshow">
+   <div>
+     <img src="stomatolog.jpg" alt="stomatolog">
+   </div>
+   <div>
+     <img src="working.jpg" alt="working">
+   </div>
+   <div>
+     <img src="mum-and-child.jpg" alt="mumandchild">
+   </div>
+</div>
+
+
+
+
+
+	
+<div id="container">
+	<div id="contacts">
+   <div id="detskastomatologiq">
+   	<h1><u>ДЕТСКА СТОМАТОЛОГИЯ</u></h1>
+   	<p><u><b>Децата са нашето богатство и заслужават да им осигурим добро орално здраве, както и добри хигиенни навици, за здрави зъбки!</b></u></p>
+   	<img src="работа с деца.jpg"  height="250" width="450"/>
+   </div>
+   <div id="texttttt">
+   	<p>-	Лечение на кариес, пулпит и периодонтит на млчени зъби.<br>
+-	Екстракция /изваждане/  на млеччни зъби.<br>
+-	Лечение на кариес, пулпит и периодонтит на постоянни зъби при деца до 18 – годишна възраст.<br>
+-	Екстаркция /изваждане/ на постоянни зъби при деца до 18 – годишна възраст.<br>
+-	Силанизиране на постоянните шести зъби след поникването им.<br>
+-	Обучение на децата за правилно четканре на зъбите и отлични хигиенни навици!<br>
+-	Визуализиране на плаката за постигане на добра орална хигиена - мотивация!<br>
+-	<b><u>Преглед и консултация за необходимост от ортодонтско лечение.</u></b>
+</p>
+   </div>
+   </div>
+</div>   
+
+
+
+	<div id="footer">
+		<p>Copyright 2015  &copy; All Rights Reserved | Developed by: Rumen Poibrenski
+		</p>
+		<div id="like">
+		<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FDentalenKabinet&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+		</div>
+		
+	</div>	
+</div>
+</body>
+</html>
